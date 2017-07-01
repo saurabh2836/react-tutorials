@@ -11,8 +11,6 @@ class Users extends React.Component {
         return user.friend === true;
     });
 
-
-
     var nonfriends = this.props.list.filter(function(user){
         return user.friend !== true;
     });
